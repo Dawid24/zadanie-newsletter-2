@@ -6,4 +6,12 @@ public class ReadFromMain {
             Data.numberList.add(Integer.parseInt(str));
         }
     }
+
+    public static void loadToClassList() {
+        for (int i = 0; i < Data.numberList.size(); i++) {
+            Number number = new Number(Data.numberList.get(0), i);
+            Data.numbersClassList.add(number);
+        }
+        
+    }
 }

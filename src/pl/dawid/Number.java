@@ -1,29 +1,29 @@
 package pl.dawid;
 
 public class Number {
-    private String value;
-    private String index;
+    private Integer value;
+    private int index;
 
     public Number() {}
 
-    public Number(String value, String index) {
+    public Number(Integer value, int index) {
         this.value = value;
         this.index = index;
     }
 
-    public String getValue() {
+    public Integer getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(Integer value) {
         this.value = value;
     }
 
-    public String getIndex() {
+    public int getIndex() {
         return index;
     }
 
-    public void setIndex(String index) {
+    public void setIndex(int index) {
         this.index = index;
     }
 
